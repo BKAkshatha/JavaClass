@@ -4,6 +4,7 @@ public class Main {
         dataTypesMethod();
         int variable5 = variableAssignmentMethod(6);
         System.out.println("Value of int variable5 in mainMethod is: " + variable5);
+        characterAssignment();
     }
 
     static void dataTypesMethod() {
@@ -20,5 +21,10 @@ public class Main {
     static int variableAssignmentMethod(int variable4) {
         System.out.println("Value of int variable4 in variableAssignmentMethod is: " + variable4);
         return variable4 + 1;
+    }
+
+    static void characterAssignment() {
+        char variable6 = 'A';
+        System.out.println("Value of char variable6 in characterAssignment is: " + variable6);
     }
 }
