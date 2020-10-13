@@ -16,6 +16,13 @@ public class Main {
         assignment2.incrementOperators(3);
         System.out.println("*****************************Assignment 2 Part 2********************************");
         assignment2.table(2);
+
+        // Assignment dated Oct 9 2020
+        System.out.println("*****************************Assignment 3********************************");
+        Assignment3 assignment3 = new Assignment3();
+        assignment3.arithmeticLogicalOperators(3, 4, 6);
+        assignment3.bitwiseOperators();
+
     }
 
 
